@@ -1,0 +1,41 @@
+.trans {
+    position: relative;
+    width: 250px;
+    overflow: hidden;
+
+}
+
+.img {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.info {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    background-color: rgba(0, 0, 0, 0.268);
+    color: white;
+    padding: 0 5px 0 5px;
+    text-align: center;
+}
+
+.trans:hover .info {
+    bottom: 0;
+}
+
+h2 {
+    background-color: rgb(128, 0, 255);
+    width: 100%;
+    margin-top: 0;
+}
